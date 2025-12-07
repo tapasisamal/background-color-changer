@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 1s ease; /* smooth background change */
+}
+
+/* Container for color buttons */
+.canvas {
+  margin: 100px auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* Color buttons */
+.button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #212121;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 12px; /* rounded corners */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; /* hover animation */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  transform: scale(1.1); /* slightly bigger */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* shadow for depth */
+}
+
+/* Specific colors */
+#grey {
+  background-color: grey;
+}
+
+#white {
+  background-color: white;
+}
+
+#blue {
+  background-color: #3498db; /* nicer blue */
+}
+
+#yellow {
+  background-color: #f1c40f; /* brighter yellow */
+}
+
+#purple {
+  background-color: #9b59b6;
+}
+
+#green {
+  background-color: #2ecc71;
+}
